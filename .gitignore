@@ -37,3 +37,6 @@ logs/**
 !data/**/
 !outputs/**/
 !**/.gitkeep
+
+# 예외: 분석 판단의 근거 문서는 형상관리한다 (figures/tables는 계속 제외)
+!outputs/reports/**

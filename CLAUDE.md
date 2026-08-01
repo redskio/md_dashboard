@@ -189,4 +189,5 @@ source .venv/bin/activate
 - 원격: `https://github.com/redskio/md_dashboard` (**PUBLIC 저장소**)
 - `data/` 전체를 gitignore한다
 - `outputs/`, `logs/`, `.venv/`는 커밋하지 않는다
+- **예외: `outputs/reports/`는 커밋한다.** 분석 판단의 근거 문서이므로 코드와 함께 이력이 남아야 한다 (`outputs/figures/`, `outputs/tables/`는 계속 제외)
 - push 전에 스테이징 목록을 확인해 민감 데이터가 포함되지 않았는지 검증한다
