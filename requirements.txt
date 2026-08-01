@@ -6,6 +6,7 @@ plotly>=5.24
 openpyxl>=3.1          # Excel 입출력
 pyarrow>=17.0          # parquet 중간 산출물
 python-dateutil>=2.9
+tabulate>=0.9           # DataFrame → 마크다운 표 (리포트 생성)
 
 # 분석 / 통계
 scipy>=1.14
