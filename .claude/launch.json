@@ -1,0 +1,12 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "md-dashboard",
+      "runtimeExecutable": ".venv/bin/streamlit",
+      "runtimeArgs": ["run", "dashboard/app.py", "--server.port", "8512", "--server.headless", "true"],
+      "port": 8512,
+      "autoPort": false
+    }
+  ]
+}
