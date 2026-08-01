@@ -30,7 +30,10 @@ build/
 # Excel/Office lock files
 ~$*
 
-# 원본 데이터셋 (공개 리포지터리이므로 기본 제외 — 공유가 필요하면 이 줄을 지우세요)
-*.xlsx
-*.xls
-*.csv
+# 데이터·산출물 (CLAUDE.md Git 정책) — 폴더 구조만 .gitkeep으로 유지
+data/**
+outputs/**
+logs/**
+!data/**/
+!outputs/**/
+!**/.gitkeep
